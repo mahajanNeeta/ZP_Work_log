@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-24T10:58:30 BST" name="Default suite" finished-at="2021-08-24T10:58:30 BST" duration-ms="83">
+    <groups>
+    </groups>
+    <test started-at="2021-08-24T10:58:30 BST" name="Default test" finished-at="2021-08-24T10:58:30 BST" duration-ms="83">
+      <class name="ui.DataProviderDemo">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataProviderDemo@4b5a5ed1]" started-at="2021-08-24T10:58:30 BST" name="test" data-provider="dataSet" finished-at="2021-08-24T10:58:30 BST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataProviderDemo@4b5a5ed1]" started-at="2021-08-24T10:58:30 BST" name="test" data-provider="dataSet" finished-at="2021-08-24T10:58:30 BST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataProviderDemo@4b5a5ed1]" started-at="2021-08-24T10:58:30 BST" name="test" data-provider="dataSet" finished-at="2021-08-24T10:58:30 BST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataProviderDemo@4b5a5ed1]" started-at="2021-08-24T10:58:30 BST" name="test" data-provider="dataSet" finished-at="2021-08-24T10:58:30 BST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- ui.DataProviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
