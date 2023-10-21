@@ -6,9 +6,7 @@ import java.util.concurrent.TimeUnit;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.support.ui.Select;
 
 public class ZP_Automation {
 
@@ -31,7 +29,7 @@ public class ZP_Automation {
 
 	// Launching browser
 	private WebDriver launchBrowser() {
-		System.setProperty("webdriver.edge.driver", "C:\\Framework\\drivers\\msedgedriver.exe");
+		System.setProperty("webdriver.edge.driver", "C:\\Automation\\AutomationFramework\\Framework\\drivers\\msedgedriver.exe");
 		WebDriver driver = new EdgeDriver();
 		driver.get("http://143.110.187.115:8080/TrackingDashboardProd/#/login");
 		driver.manage().window().maximize();
