@@ -28,7 +28,7 @@ public class AutomationFramework {
 	private WebDriver driver;
 
 	AutomationFramework() {
-		List<TestScript> scriptList = loadTestScriptAndData1();
+		List<TestScript> scriptList = loadTestScriptAndData();
 
 		/* read data from arraylist */
 
@@ -77,7 +77,7 @@ public class AutomationFramework {
 	public List<TestScript> loadTestScriptAndData() {
 		/* Read the file */
 		BufferedReader br = null;
-		File file = new File("C:\\Framework\\configruration.properties");
+		File file = new File("C:\\Automation\\AutomationFramework\\Framework\\configruration.properties");
 		try {
 			br = new BufferedReader(new FileReader(file));
 		} catch (FileNotFoundException e) {

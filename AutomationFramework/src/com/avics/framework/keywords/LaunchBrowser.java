@@ -33,7 +33,7 @@ public class LaunchBrowser {
 	public WebDriver launch() {	
 		String driverName = "webdriver.edge.driver";
 		WebDriver driver = null;
-		String baseLocation = "C:\\Framework\\drivers\\";
+		String baseLocation = "C:\\Automation\\AutomationFramework\\Framework\\drivers\\";
 		String driverEXE = "msedgedriver.exe";
 		if(this.browser.equalsIgnoreCase("edge")) {
 			driverName = "webdriver.edge.driver";
